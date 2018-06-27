@@ -24,5 +24,17 @@ namespace FunSeqWPF
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NewEraControl nec = new NewEraControl();
+            nec.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            ImageSeries myIS = new ImageSeries();
+            myIS.Show();
+        }
     }
 }
