@@ -9,7 +9,7 @@
     <Grid>
         <Button Content="New ERA" HorizontalAlignment="Left" Margin="520,310,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click"/>
         <Button Content="Image series" HorizontalAlignment="Left" Margin="65,250,0,0" VerticalAlignment="Top" Width="140" Click="Button_Click_1"/>
-        <Button x:Name="test01" Content="test01" HorizontalAlignment="Left" Margin="85,360,0,0" VerticalAlignment="Top" Width="75" Background="#FFF0721B" Click="test01_Click" />
+        <Button x:Name="open_test01" Content="Open Test01" HorizontalAlignment="Left" Margin="85,360,0,0" VerticalAlignment="Top" Width="75" Background="#FFF0721B" Click="open_test01_Click"  />
 
     </Grid>
 </Window>

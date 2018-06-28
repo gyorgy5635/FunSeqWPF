@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace FunSeqWPF
 {
     /// <summary>
-    /// Interaction logic for test01.xaml
+    /// Interaction logic for Test01.xaml
     /// </summary>
     public partial class Test01 : Window
     {
