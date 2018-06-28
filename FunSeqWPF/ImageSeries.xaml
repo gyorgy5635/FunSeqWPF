@@ -6,8 +6,10 @@
         xmlns:local="clr-namespace:FunSeqWPF"
         mc:Ignorable="d"
         Title="ImageSeries" Height="450" Width="800">
-    <Grid Margin="0,0,0,392" VerticalAlignment="Top">
+    <Grid Margin="0,0,0,392" VerticalAlignment="Top" Background="{DynamicResource {x:Static SystemColors.ControlDarkBrushKey}}">
         <Menu HorizontalAlignment="Left" Height="25" VerticalAlignment="Top"/>
+        <StackPanel HorizontalAlignment="Left" Height="200" Margin="105,115,0,-290" VerticalAlignment="Top" Width="340" Background="{DynamicResource {x:Static SystemColors.ScrollBarBrushKey}}"/>
+        <Separator HorizontalAlignment="Left" Height="140" Margin="325,205,0,-319" VerticalAlignment="Top" Width="265" Background="#FF682A2A"/>
 
     </Grid>
 </Window>
