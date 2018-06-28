@@ -36,5 +36,11 @@ namespace FunSeqWPF
             ImageSeries myIS = new ImageSeries();
             myIS.Show();
         }
+
+        private void test01_Click(object sender, RoutedEventArgs e)
+        {
+            Test01 myT = new Test01();
+            myT.Show();
+        }
     }
 }
